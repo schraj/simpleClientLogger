@@ -1,9 +1,8 @@
 {
   "name": "simple-client-logger",
   "version": "0.1.0",
-  "description": "",
+  "description": "Logs errors and info from a client application",
   "main": "/dist/index.js",
-  "private": "true",
   "scripts": {
     "build": "webpack",
     "test": "jest"

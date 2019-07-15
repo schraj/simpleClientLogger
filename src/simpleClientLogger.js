@@ -91,4 +91,4 @@ class SimpleClientLogger {
     }
 }
 
-export default SimpleClientLogger;
+module.exports = SimpleClientLogger;
