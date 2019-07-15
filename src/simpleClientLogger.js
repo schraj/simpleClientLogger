@@ -12,7 +12,7 @@ const defaultOptions = {
 
 class SimpleClientLogger {
     constructor(options) {
-        this.options = Object.assign(options, defaultOptions);
+        this.options = Object.assign(defaultOptions, options);
         this.errorCache = [];
         this.sendInterval = null;
     }
